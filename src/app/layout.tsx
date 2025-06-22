@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'Home Canvas | Personal Portfolio',
+  title: 'zupeirr | Personal Portfolio',
   description: 'A personal portfolio for showcasing projects and skills.',
 };
 
