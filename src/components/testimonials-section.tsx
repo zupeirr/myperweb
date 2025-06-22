@@ -7,21 +7,21 @@ const testimonials = [
     title: 'CEO, TechCorp',
     avatar: 'https://placehold.co/100x100.png',
     avatarHint: "woman portrait",
-    text: "Alex is an exceptional developer who consistently delivers high-quality work. Their attention to detail and problem-solving skills are top-notch. It was a pleasure working with them.",
+    text: "Suber is an exceptional developer who consistently delivers high-quality work. Their attention to detail and problem-solving skills are top-notch. It was a pleasure working with them.",
   },
   {
     name: 'John Johnson',
     title: 'Project Manager, Innovate LLC',
     avatar: 'https://placehold.co/100x100.png',
     avatarHint: "man portrait",
-    text: "Working with Alex was a game-changer for our project. Their expertise in modern web technologies helped us build a product that exceeded our expectations. Highly recommended!",
+    text: "Working with Suber was a game-changer for our project. Their expertise in modern web technologies helped us build a product that exceeded our expectations. Highly recommended!",
   },
   {
     name: 'Emily Williams',
     title: 'Lead Designer, Creative Solutions',
     avatar: 'https://placehold.co/100x100.png',
     avatarHint: "person portrait",
-    text: "Alex has a fantastic eye for design and user experience. They were able to translate our complex design requirements into a beautiful and functional interface. A true professional.",
+    text: "Suber has a fantastic eye for design and user experience. They were able to translate our complex design requirements into a beautiful and functional interface. A true professional.",
   },
 ];
 

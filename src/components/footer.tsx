@@ -7,7 +7,7 @@ export function Footer() {
       <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 md:flex-row md:px-6">
         <div className="flex items-center gap-2">
             <Code className="h-5 w-5 text-primary" />
-            <p className="text-sm text-muted-foreground">&copy; {new Date().getFullYear()} Alex Doe. All rights reserved.</p>
+            <p className="text-sm text-muted-foreground">&copy; {new Date().getFullYear()} Suber Sulub. All rights reserved.</p>
         </div>
         <div className="flex items-center gap-4">
           <Link href="#" aria-label="GitHub" className="text-muted-foreground transition-colors hover:text-primary">

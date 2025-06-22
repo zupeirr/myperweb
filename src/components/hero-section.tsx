@@ -8,10 +8,10 @@ export function HeroSection() {
       <div className="absolute inset-0 bg-gradient-to-b from-primary/10 via-background to-background" />
       <div className="relative z-10 p-4">
         <h1 className="font-headline text-5xl font-extrabold tracking-tight sm:text-6xl md:text-7xl lg:text-8xl">
-          Alex Doe
+          Suber Sulub
         </h1>
         <p className="mt-4 max-w-2xl text-lg text-muted-foreground sm:text-xl md:text-2xl">
-          Creative Full-Stack Developer & UI/UX Enthusiast
+          Full-Stack Developer
         </p>
         <p className="mt-6 max-w-3xl text-base text-foreground/80 md:text-lg">
           I build beautiful, responsive, and user-friendly web applications that solve real-world problems.

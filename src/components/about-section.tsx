@@ -8,7 +8,7 @@ export function AboutSection() {
         <div className="flex justify-center">
             <Image
               src="https://placehold.co/400x400.png"
-              alt="A professional headshot of Alex Doe"
+              alt="A professional headshot of Suber Sulub"
               data-ai-hint="professional headshot"
               width={400}
               height={400}
