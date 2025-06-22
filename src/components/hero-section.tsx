@@ -11,10 +11,10 @@ export function HeroSection() {
           Suber Sulub
         </h1>
         <p className="mt-4 max-w-2xl text-lg text-muted-foreground sm:text-xl md:text-2xl">
-          Full-Stack Developer
+          Creative Full-Stack Developer
         </p>
         <p className="mt-6 max-w-3xl text-base text-foreground/80 md:text-lg">
-          Full-Stack Web Developer with a strong focus on frontend design and backend performance. Experienced in building modern, scalable applications.
+          I build beautiful and powerful web applications. Let's create something amazing together.
         </p>
         <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <Button asChild size="lg" className="font-bold">
