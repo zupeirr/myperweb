@@ -37,8 +37,8 @@ export function ContactSection() {
                 <div>
                   <h3 className="text-xl font-bold">Phone</h3>
                   <p className="text-muted-foreground">Let's have a chat.</p>
-                  <a href="tel:+1234567890" className="font-medium text-primary hover:underline">
-                    +1 (234) 567-890
+                  <a href="tel:+252636097266" className="font-medium text-primary hover:underline">
+                    +252636097266
                   </a>
                 </div>
               </div>
