@@ -7,9 +7,8 @@ export function AboutSection() {
       <div className="container mx-auto grid items-center gap-12 px-4 md:grid-cols-2 md:px-6">
         <div className="flex justify-center">
             <Image
-              src="https://placehold.co/400x400.png"
+              src="/profile-photo.jpg"
               alt="A professional headshot of Suber Sulub"
-              data-ai-hint="professional headshot"
               width={400}
               height={400}
               className="rounded-full object-cover aspect-square transition-transform duration-300 hover:scale-105 shadow-2xl"
