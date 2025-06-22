@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Menu, Code } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { ThemeToggle } from './theme-toggle';
 
 const navLinks = [
   { href: '#about', label: 'About' },
@@ -43,31 +44,34 @@ export function Header() {
             </Link>
           ))}
         </nav>
-        <Sheet>
-          <SheetTrigger asChild>
-            <Button variant="outline" size="icon" className="md:hidden">
-              <Menu className="h-6 w-6" />
-              <span className="sr-only">Toggle navigation menu</span>
-            </Button>
-          </SheetTrigger>
-          <SheetContent side="right">
-            <div className="grid gap-4 py-6">
-              <Link href="/" className="flex items-center gap-2 font-headline text-2xl font-bold px-4">
-                <Code className="h-6 w-6 text-primary" />
-                <span>zupeirr</span>
-              </Link>
-              <nav className="grid gap-2 p-4">
-                {navLinks.map((link) => (
-                  <SheetTrigger asChild key={link.href}>
-                    <Link href={link.href} className="text-lg font-medium transition-colors hover:text-primary py-2">
-                      {link.label}
-                    </Link>
-                  </SheetTrigger>
-                ))}
-              </nav>
-            </div>
-          </SheetContent>
-        </Sheet>
+        <div className="flex items-center gap-2">
+            <ThemeToggle />
+            <Sheet>
+            <SheetTrigger asChild>
+                <Button variant="outline" size="icon" className="md:hidden">
+                <Menu className="h-6 w-6" />
+                <span className="sr-only">Toggle navigation menu</span>
+                </Button>
+            </SheetTrigger>
+            <SheetContent side="right">
+                <div className="grid gap-4 py-6">
+                <Link href="/" className="flex items-center gap-2 font-headline text-2xl font-bold px-4">
+                    <Code className="h-6 w-6 text-primary" />
+                    <span>zupeirr</span>
+                </Link>
+                <nav className="grid gap-2 p-4">
+                    {navLinks.map((link) => (
+                    <SheetTrigger asChild key={link.href}>
+                        <Link href={link.href} className="text-lg font-medium transition-colors hover:text-primary py-2">
+                        {link.label}
+                        </Link>
+                    </SheetTrigger>
+                    ))}
+                </nav>
+                </div>
+            </SheetContent>
+            </Sheet>
+        </div>
       </div>
     </header>
   );
