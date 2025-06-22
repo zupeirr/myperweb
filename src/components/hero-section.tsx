@@ -14,7 +14,7 @@ export function HeroSection() {
           Full-Stack Developer
         </p>
         <p className="mt-6 max-w-3xl text-base text-foreground/80 md:text-lg">
-          I build beautiful, responsive, and user-friendly web applications that solve real-world problems.
+          Full-Stack Web Developer with a strong focus on frontend design and backend performance. Experienced in building modern, scalable applications.
         </p>
         <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <Button asChild size="lg" className="font-bold">
