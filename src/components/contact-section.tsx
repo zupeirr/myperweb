@@ -25,8 +25,8 @@ export function ContactSection() {
                 <div>
                   <h3 className="text-xl font-bold">Email</h3>
                   <p className="text-muted-foreground">Drop me a line anytime.</p>
-                  <a href="mailto:suber.sulub@example.com" className="font-medium text-primary hover:underline">
-                    suber.sulub@example.com
+                  <a href="mailto:Subeersulub10@gmail.com" className="font-medium text-primary hover:underline">
+                    Subeersulub10@gmail.com
                   </a>
                 </div>
               </div>
