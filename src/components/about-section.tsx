@@ -7,7 +7,7 @@ export function AboutSection() {
         <div className="flex justify-center items-center">
           <div className="bg-secondary p-4 pb-12 rounded-lg shadow-2xl transform -rotate-3 transition-transform duration-300 hover:rotate-0 hover:scale-105">
             <Image
-              src="/profile-photo.jpg"
+              src="https://images.unsplash.com/photo-1607798748738-b15c40d33d57?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb2RlcnxlbnwwfHx8fDE3NTA2OTI1NDB8MA&ixlib=rb-4.1.0&q=80&w=1080"
               alt="A professional headshot of Suber Sulub"
               data-ai-hint="professional headshot"
               width={300}
