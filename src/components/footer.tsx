@@ -16,7 +16,7 @@ export function Footer() {
           <Link href="#" aria-label="Twitter" className="text-muted-foreground transition-colors hover:text-primary">
             <Twitter className="h-6 w-6" />
           </Link>
-          <Link href="#" aria-label="LinkedIn" className="text-muted-foreground transition-colors hover:text-primary">
+          <Link href="https://www.linkedin.com/in/suber-sulub-147897317/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-muted-foreground transition-colors hover:text-primary">
             <Linkedin className="h-6 w-6" />
           </Link>
         </div>
