@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Github, Twitter, Linkedin, Code } from 'lucide-react';
+import { Github, Send, Linkedin, Code } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -13,8 +13,8 @@ export function Footer() {
           <Link href="https://github.com/zupeirr" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-muted-foreground transition-colors hover:text-primary">
             <Github className="h-6 w-6" />
           </Link>
-          <Link href="#" aria-label="Twitter" className="text-muted-foreground transition-colors hover:text-primary">
-            <Twitter className="h-6 w-6" />
+          <Link href="#" aria-label="Telegram" className="text-muted-foreground transition-colors hover:text-primary">
+            <Send className="h-6 w-6" />
           </Link>
           <Link href="https://www.linkedin.com/in/suber-sulub-147897317/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-muted-foreground transition-colors hover:text-primary">
             <Linkedin className="h-6 w-6" />
