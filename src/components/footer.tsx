@@ -10,7 +10,7 @@ export function Footer() {
             <p className="text-sm text-muted-foreground">&copy; {new Date().getFullYear()} Suber Sulub. All rights reserved.</p>
         </div>
         <div className="flex items-center gap-4">
-          <Link href="#" aria-label="GitHub" className="text-muted-foreground transition-colors hover:text-primary">
+          <Link href="https://github.com/zupeirr" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-muted-foreground transition-colors hover:text-primary">
             <Github className="h-6 w-6" />
           </Link>
           <Link href="#" aria-label="Twitter" className="text-muted-foreground transition-colors hover:text-primary">
