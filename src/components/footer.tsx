@@ -13,7 +13,7 @@ export function Footer() {
           <Link href="https://github.com/zupeirr" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-muted-foreground transition-colors hover:text-primary">
             <Github className="h-6 w-6" />
           </Link>
-          <Link href="#" aria-label="Telegram" className="text-muted-foreground transition-colors hover:text-primary">
+          <Link href="https://t.me/thezupeirr" target="_blank" rel="noopener noreferrer" aria-label="Telegram" className="text-muted-foreground transition-colors hover:text-primary">
             <Send className="h-6 w-6" />
           </Link>
           <Link href="https://www.linkedin.com/in/suber-sulub-147897317/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-muted-foreground transition-colors hover:text-primary">
