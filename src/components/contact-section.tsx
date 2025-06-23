@@ -2,7 +2,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Instagram, MapPin } from 'lucide-react';
 
 export function ContactSection() {
   return (
@@ -32,13 +32,13 @@ export function ContactSection() {
               </div>
                <div className="flex items-start gap-4">
                 <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary">
-                  <Phone className="h-6 w-6" />
+                  <Instagram className="h-6 w-6" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold">Phone</h3>
-                  <p className="text-muted-foreground">Let's have a chat.</p>
-                  <a href="tel:+252636097266" className="font-medium text-primary hover:underline">
-                    +252636097266
+                  <h3 className="text-xl font-bold">Instagram</h3>
+                  <p className="text-muted-foreground">Follow my journey.</p>
+                  <a href="https://instagram.com/zupeirr" target="_blank" rel="noopener noreferrer" className="font-medium text-primary hover:underline">
+                    @zupeirr
                   </a>
                 </div>
               </div>
