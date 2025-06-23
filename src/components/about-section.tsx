@@ -1,4 +1,7 @@
 import Image from 'next/image';
+import Link from 'next/link';
+import { Button } from '@/components/ui/button';
+import { FileText } from 'lucide-react';
 
 export function AboutSection() {
   return (
@@ -26,6 +29,14 @@ export function AboutSection() {
           <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             When I'm not coding, you can find me exploring the latest technology trends, contributing to open-source projects, or enjoying a good cup of coffee. I believe in continuous learning and am always looking for new challenges to grow my skills.
           </p>
+          <div className="mt-6">
+            <Button asChild variant="secondary">
+              <Link href="/Suber-Sulub-CV.pdf" download>
+                Download CV
+                <FileText className="ml-2" />
+              </Link>
+            </Button>
+          </div>
         </div>
       </div>
     </section>
