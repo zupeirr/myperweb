@@ -2,7 +2,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone } from 'lucide-react';
 
 export function ContactSection() {
   return (
@@ -40,18 +40,6 @@ export function ContactSection() {
                   <a href="tel:+252636097266" className="font-medium text-primary hover:underline">
                     +252 63 6097266
                   </a>
-                </div>
-              </div>
-              <div className="flex items-start gap-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary">
-                  <MapPin className="h-6 w-6" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold">Location</h3>
-                  <p className="text-muted-foreground">Based in San Francisco, CA</p>
-                   <p className="font-medium text-primary">
-                    Open to remote opportunities
-                  </p>
                 </div>
               </div>
             </div>
