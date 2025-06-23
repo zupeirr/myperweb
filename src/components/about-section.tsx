@@ -31,7 +31,7 @@ export function AboutSection() {
           </p>
           <div className="mt-6">
             <Button asChild variant="secondary">
-              <Link href="/Suber-Sulub-CV.pdf" download>
+              <Link href="https://app.enhancv.com/share/cccab4f7/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic" target="_blank" rel="noopener noreferrer">
                 Download CV
                 <FileText className="ml-2" />
               </Link>
