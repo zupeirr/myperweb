@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { Github, Send, Linkedin } from 'lucide-react';
+import { Github, Send, Linkedin, Code, Server, Database } from 'lucide-react';
 
 const socialLinks = [
   { icon: Github, href: 'https://github.com/zupeirr', label: 'GitHub' },
@@ -19,10 +19,10 @@ export function HeroSection() {
             </p>
             <h1 className="font-headline text-5xl md:text-6xl font-bold tracking-tight">
               Hi, I'm <span className="text-primary">Suber Sulub</span>
-              <br />a Professional UI/Ux Designer.
+              <br />a Professional Creative Full-Stack Developer.
             </h1>
             <p className="mt-6 text-muted-foreground text-lg">
-              I have been working since 2012. I am proficient in ui design, user experience, researcher, web development.
+              I'm a passionate and creative full-stack developer with a knack for building beautiful and functional web applications from the ground up.
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-8 sm:gap-12">
@@ -45,14 +45,14 @@ export function HeroSection() {
                 Best skill on
               </h2>
               <div className="flex gap-4">
-                <div className="h-14 w-14 rounded-lg bg-card shadow-md hover:shadow-lg transition-shadow flex items-center justify-center font-bold text-lg text-muted-foreground">
-                  Fg
+                <div className="h-14 w-14 rounded-lg bg-card shadow-md hover:shadow-lg transition-shadow flex items-center justify-center text-muted-foreground">
+                  <Code className="h-7 w-7" />
                 </div>
-                <div className="h-14 w-14 rounded-lg bg-card shadow-md hover:shadow-lg transition-shadow flex items-center justify-center font-bold text-lg text-muted-foreground">
-                  Xd
+                <div className="h-14 w-14 rounded-lg bg-card shadow-md hover:shadow-lg transition-shadow flex items-center justify-center text-muted-foreground">
+                  <Server className="h-7 w-7" />
                 </div>
-                <div className="h-14 w-14 rounded-lg bg-card shadow-md hover:shadow-lg transition-shadow flex items-center justify-center font-bold text-lg text-muted-foreground">
-                  Ps
+                <div className="h-14 w-14 rounded-lg bg-card shadow-md hover:shadow-lg transition-shadow flex items-center justify-center text-muted-foreground">
+                  <Database className="h-7 w-7" />
                 </div>
               </div>
             </div>
