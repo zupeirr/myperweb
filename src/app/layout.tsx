@@ -2,8 +2,6 @@ import type {Metadata} from 'next';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 import { ThemeProvider } from '@/components/theme-provider';
-import { cn } from '@/lib/utils';
-import { ptSans, playfairDisplay } from './fonts';
 
 export const metadata: Metadata = {
   title: 'Suber Sulub | Creative Full-Stack Developer',
@@ -17,11 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="!scroll-smooth" suppressHydrationWarning>
-      <body className={cn(
-          "font-body antialiased",
-          ptSans.variable,
-          playfairDisplay.variable
-        )}>
+      <body className="antialiased">
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"

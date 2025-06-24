@@ -31,7 +31,7 @@ export function Header() {
       isScrolled ? "bg-background/80 backdrop-blur-sm shadow-md" : "bg-transparent"
     )}>
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
-        <Link href="/" className="flex items-center gap-2 font-headline text-2xl font-bold">
+        <Link href="/" className="flex items-center gap-2 text-2xl font-bold">
           <span>Suber Sulub</span>
         </Link>
         <nav className="hidden items-center gap-6 md:flex">
@@ -52,7 +52,7 @@ export function Header() {
             </SheetTrigger>
             <SheetContent side="right">
                 <div className="grid gap-4 py-6">
-                <Link href="/" className="flex items-center gap-2 font-headline text-2xl font-bold px-4">
+                <Link href="/" className="flex items-center gap-2 text-2xl font-bold px-4">
                     <span>Suber Sulub</span>
                 </Link>
                 <nav className="grid gap-2 p-4">

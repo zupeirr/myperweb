@@ -5,11 +5,7 @@ import { Github, Send, Linkedin } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 export function Footer() {
-  const [year, setYear] = useState(() => new Date().getFullYear());
-
-  useEffect(() => {
-    setYear(new Date().getFullYear());
-  }, []);
+  const [year, setYear] = useState(new Date().getFullYear());
 
   return (
     <footer className="w-full bg-background border-t border-border/50 py-6">
