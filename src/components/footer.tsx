@@ -2,9 +2,14 @@
 
 import Link from 'next/link';
 import { Github, Send, Linkedin } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
 
 export function Footer() {
-  const year = new Date().getFullYear();
+  const [year, setYear] = useState(new Date().getFullYear());
+
+  useEffect(() => {
+    setYear(new Date().getFullYear());
+  }, []);
 
   return (
     <footer className="w-full bg-background border-t border-border/50 py-6">
