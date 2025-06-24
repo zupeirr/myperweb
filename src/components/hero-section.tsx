@@ -1,34 +1,76 @@
-import { Button } from '@/components/ui/button';
+import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowDown } from 'lucide-react';
+import { Github, Send, Linkedin } from 'lucide-react';
+
+const socialLinks = [
+  { icon: Github, href: 'https://github.com/zupeirr', label: 'GitHub' },
+  { icon: Send, href: 'https://t.me/thezupeirr', label: 'Telegram' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/suber-sulub-147897317/', label: 'LinkedIn' },
+];
 
 export function HeroSection() {
   return (
-    <section id="home" className="relative flex h-dvh w-full flex-col items-center justify-center text-center">
-      <div className="absolute inset-0 bg-gradient-to-b from-primary/10 via-background to-background" />
-      <div className="relative z-10 p-4">
-        <h1 className="font-headline text-5xl font-extrabold tracking-tight sm:text-6xl md:text-7xl lg:text-8xl">
-          Suber Sulub
-        </h1>
-        <p className="mt-4 max-w-2xl text-lg text-muted-foreground sm:text-xl md:text-2xl">
-          Creative Full-Stack Developer
-        </p>
-        <p className="mt-6 max-w-3xl text-base text-foreground/80 md:text-lg">
-          I build beautiful and powerful web applications. Let's create something amazing together.
-        </p>
-        <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
-          <Button asChild size="lg" className="font-bold">
-            <Link href="#projects">View My Work</Link>
-          </Button>
-          <Button asChild variant="outline" size="lg" className="font-bold">
-            <Link href="#contact">Get in Touch</Link>
-          </Button>
+    <section id="home" className="w-full min-h-dvh flex items-center bg-background text-foreground">
+      <div className="container mx-auto grid md:grid-cols-2 gap-12 items-center px-4 md:px-6 py-24">
+        <div className="space-y-12">
+          <div>
+            <p className="text-sm font-medium tracking-widest uppercase text-muted-foreground mb-4">
+              WELCOME TO MY WORLD
+            </p>
+            <h1 className="font-headline text-5xl md:text-6xl font-bold tracking-tight">
+              Hi, I'm <span className="text-primary">Omor Rahman</span>
+              <br />a Professional UI/Ux Designer.
+            </h1>
+            <p className="mt-6 text-muted-foreground text-lg">
+              I have been working since 2012. I am proficient in ui design, user experience, researcher, web development.
+            </p>
+          </div>
+          <div className="flex flex-col sm:flex-row gap-8 sm:gap-12">
+            <div>
+              <h2 className="text-sm font-medium tracking-widest uppercase text-muted-foreground mb-4">
+                Find with me
+              </h2>
+              <div className="flex gap-4">
+                {socialLinks.map(link => (
+                  <Link href={link.href} key={link.label} target="_blank" rel="noopener noreferrer"
+                    className="h-14 w-14 rounded-lg bg-card shadow-md hover:shadow-lg transition-shadow flex items-center justify-center text-muted-foreground hover:text-primary">
+                    <link.icon className="h-6 w-6" />
+                    <span className="sr-only">{link.label}</span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+            <div>
+              <h2 className="text-sm font-medium tracking-widest uppercase text-muted-foreground mb-4">
+                Best skill on
+              </h2>
+              <div className="flex gap-4">
+                <div className="h-14 w-14 rounded-lg bg-card shadow-md hover:shadow-lg transition-shadow flex items-center justify-center font-bold text-lg text-muted-foreground">
+                  Fg
+                </div>
+                <div className="h-14 w-14 rounded-lg bg-card shadow-md hover:shadow-lg transition-shadow flex items-center justify-center font-bold text-lg text-muted-foreground">
+                  Xd
+                </div>
+                <div className="h-14 w-14 rounded-lg bg-card shadow-md hover:shadow-lg transition-shadow flex items-center justify-center font-bold text-lg text-muted-foreground">
+                  Ps
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-       <div className="absolute bottom-10 z-10">
-        <Link href="#about" aria-label="Scroll to about section">
-          <ArrowDown className="h-8 w-8 animate-bounce text-primary" />
-        </Link>
+        <div className="hidden md:flex justify-center items-center">
+          <div className="relative w-[450px] h-[550px]">
+            <div className="absolute inset-0 border-4 border-primary/50 rounded-lg transform rotate-6" />
+            <Image
+              src="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3MTI5ODQ2ODh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+              alt="Omor Rahman"
+              data-ai-hint="man portrait"
+              width={450}
+              height={550}
+              className="rounded-lg shadow-2xl object-cover relative z-10"
+            />
+          </div>
+        </div>
       </div>
     </section>
   );
