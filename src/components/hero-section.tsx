@@ -18,7 +18,7 @@ export function HeroSection() {
               WELCOME TO MY WORLD
             </p>
             <h1 className="font-headline text-5xl md:text-6xl font-bold tracking-tight">
-              Hi, I'm <span className="text-primary">Omor Rahman</span>
+              Hi, I'm <span className="text-primary">Suber Sulub</span>
               <br />a Professional UI/Ux Designer.
             </h1>
             <p className="mt-6 text-muted-foreground text-lg">
@@ -63,7 +63,7 @@ export function HeroSection() {
             <div className="absolute inset-0 border-4 border-primary/50 rounded-lg transform rotate-6" />
             <Image
               src="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3MTI5ODQ2ODh8MA&ixlib=rb-4.1.0&q=80&w=1080"
-              alt="Omor Rahman"
+              alt="Suber Sulub"
               data-ai-hint="man portrait"
               width={450}
               height={550}

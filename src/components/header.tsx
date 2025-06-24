@@ -32,7 +32,7 @@ export function Header() {
     )}>
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2 font-headline text-2xl font-bold">
-          <span>Omor Rahman</span>
+          <span>Suber Sulub</span>
         </Link>
         <nav className="hidden items-center gap-6 md:flex">
           {navLinks.map((link) => (
@@ -53,7 +53,7 @@ export function Header() {
             <SheetContent side="right">
                 <div className="grid gap-4 py-6">
                 <Link href="/" className="flex items-center gap-2 font-headline text-2xl font-bold px-4">
-                    <span>Omor Rahman</span>
+                    <span>Suber Sulub</span>
                 </Link>
                 <nav className="grid gap-2 p-4">
                     {navLinks.map((link) => (
