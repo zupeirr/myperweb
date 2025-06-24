@@ -62,7 +62,7 @@ export function HeroSection() {
           <div className="relative w-[450px] h-[550px]">
             <div className="absolute inset-0 border-4 border-primary/50 rounded-lg transform rotate-6" />
             <Image
-              src="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3MTI5ODQ2ODh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+              src="https://placehold.co/450x550.png"
               alt="Suber Sulub"
               data-ai-hint="man portrait"
               width={450}
