@@ -10,7 +10,7 @@ export function AboutSection() {
         <div className="flex justify-center items-center">
           <div className="bg-secondary p-4 pb-12 rounded-lg shadow-2xl transform -rotate-3 transition-transform duration-300 hover:rotate-0 hover:scale-105">
             <Image
-              src="https://placehold.co/300x300.png"
+              src="https://i.imgur.com/gYf0gGk.png"
               alt="A professional headshot of Suber Sulub"
               data-ai-hint="professional headshot"
               width={300}
