@@ -7,20 +7,8 @@ export function AboutSection() {
   return (
     <section id="about" className="w-full py-12 md:py-24 lg:py-32 bg-card">
       <div className="container mx-auto grid items-center gap-12 px-4 md:grid-cols-2 md:px-6">
-        <div className="flex justify-center items-center">
-          <div className="bg-secondary p-4 pb-12 rounded-lg shadow-2xl transform -rotate-3 transition-transform duration-300 hover:rotate-0 hover:scale-105">
-            <Image
-              src="https://i.imgur.com/gYf0gGk.png"
-              alt="A professional headshot of Suber Sulub"
-              data-ai-hint="professional headshot"
-              width={300}
-              height={300}
-              className="object-cover aspect-square rounded-md"
-            />
-          </div>
-        </div>
         <div className="space-y-4">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+          <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
             About Me
           </h2>
           <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
@@ -36,6 +24,18 @@ export function AboutSection() {
                 <FileText className="ml-2" />
               </Link>
             </Button>
+          </div>
+        </div>
+        <div className="flex justify-center items-center">
+          <div className="bg-secondary p-4 pb-12 rounded-lg shadow-2xl transform -rotate-3 transition-transform duration-300 hover:rotate-0 hover:scale-105">
+            <Image
+              src="https://i.imgur.com/gYf0gGk.png"
+              alt="A professional headshot of Suber Sulub"
+              data-ai-hint="professional headshot"
+              width={300}
+              height={300}
+              className="object-cover aspect-square rounded-md"
+            />
           </div>
         </div>
       </div>

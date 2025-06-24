@@ -17,7 +17,7 @@ export function HeroSection() {
             <p className="text-sm font-medium tracking-widest uppercase text-muted-foreground mb-4">
               WELCOME TO MY WORLD
             </p>
-            <h1 className="text-5xl md:text-6xl font-bold tracking-tight">
+            <h1 className="font-headline text-5xl md:text-6xl font-bold tracking-tight">
               Hi, I'm <span className="text-primary">Suber Sulub</span>
               <br />a Professional Creative Full-Stack Developer.
             </h1>
