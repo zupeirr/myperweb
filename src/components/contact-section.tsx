@@ -1,5 +1,6 @@
 "use client";
 
+import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
@@ -7,6 +8,17 @@ import { Textarea } from '@/components/ui/textarea';
 import { Mail, Phone } from 'lucide-react';
 
 export function ContactSection() {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    const subject = `Message from ${name} (${email})`;
+    const mailtoLink = `mailto:Subeersulub10@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
+    window.location.href = mailtoLink;
+  };
+
   return (
     <section id="contact" className="w-full py-12 md:py-24 lg:py-32 bg-card">
       <div className="container mx-auto px-4 md:px-6">
@@ -51,10 +63,30 @@ export function ContactSection() {
                     <CardDescription>Fill out the form and I'll get back to you.</CardDescription>
                 </CardHeader>
                 <CardContent>
-                    <form className="space-y-4">
-                        <Input placeholder="Your Name" aria-label="Your Name" />
-                        <Input type="email" placeholder="Your Email" aria-label="Your Email" />
-                        <Textarea placeholder="Your Message" rows={5} aria-label="Your Message" />
+                    <form className="space-y-4" onSubmit={handleSubmit}>
+                        <Input 
+                            placeholder="Your Name" 
+                            aria-label="Your Name" 
+                            value={name} 
+                            onChange={(e) => setName(e.target.value)} 
+                            required 
+                        />
+                        <Input 
+                            type="email" 
+                            placeholder="Your Email" 
+                            aria-label="Your Email" 
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                            required
+                        />
+                        <Textarea 
+                            placeholder="Your Message" 
+                            rows={5} 
+                            aria-label="Your Message"
+                            value={message}
+                            onChange={(e) => setMessage(e.target.value)}
+                            required
+                        />
                         <Button type="submit" className="w-full">Send Message</Button>
                     </form>
                 </CardContent>
