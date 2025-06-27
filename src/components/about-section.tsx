@@ -20,15 +20,16 @@ export function AboutSection() {
   return (
     <section id="about" className="w-full py-12 md:py-24 lg:py-32 bg-card">
       <div className="container mx-auto grid items-center gap-12 px-4 md:grid-cols-2 md:px-6">
-        <div className="flex justify-center items-center">
-          <div className="bg-secondary p-4 pb-12 rounded-lg shadow-2xl transform -rotate-3 transition-transform duration-300 hover:rotate-0 hover:scale-105">
+        <div className="flex justify-center items-center group">
+          <div className="relative w-[300px] h-[300px]">
+            <div className="absolute inset-0 border-4 border-primary/50 rounded-lg transform -rotate-6 transition-transform duration-300 group-hover:rotate-0" />
             <Image
               src="https://images.unsplash.com/photo-1526925539332-aa3b66e35444?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkZXZlbG9wZXJ8ZW58MHx8fHwxNzUxMDM4MTM1fDA&ixlib=rb-4.1.0&q=80&w=1080"
               alt="A professional headshot of Suber Sulub"
               data-ai-hint="developer coding"
               width={300}
               height={300}
-              className="object-cover aspect-square rounded-md"
+              className="object-cover aspect-square rounded-md relative z-10 shadow-2xl transition-transform duration-300 group-hover:scale-105"
             />
           </div>
         </div>
