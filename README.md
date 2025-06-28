@@ -1,5 +1,8 @@
-# Firebase Studio
+My Portfolio Website
+## 🛠 Tech Stack
 
-This is a NextJS starter in Firebase Studio.
-
-To get started, take a look at src/app/page.tsx.
+- [Next.js 13+](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [Vercel Hosting](https://vercel.com)
