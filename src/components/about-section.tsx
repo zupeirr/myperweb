@@ -38,10 +38,7 @@ export function AboutSection() {
             About Me
           </h2>
           <p className={`${ptSans.className} text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed`}>
-            I'm a passionate Software Developer with a strong foundation in full-stack web development, cloud platforms, and agile methodologies. Over the past few years, I’ve built a variety of applications—from interactive frontends to robust backend systems—using technologies like JavaScript, React, Node.js, Python, and Firebase.  I enjoy building user-focused, performance-optimized applications and solving complex technical challenges. I’m also a fast learner who thrives in team environments and is always looking to expand my knowledge and contribute to meaningful projects.  Whether I’m collaborating on a startup idea, freelancing for clients, or contributing to open-source, I bring energy, creativity, and a strong sense of responsibility to every line of code I write.
-          </p>
-          <p className={`${ptSans.className} text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed`}>
-            When I'm not coding, you can find me exploring the latest technology trends, contributing to open-source projects, or enjoying a good cup of coffee. I believe in continuous learning and am always looking for new challenges to grow my skills.
+            Full-stack Developer skilled in JavaScript, TypeScript, React, Node.js, and Express. I build efficient, user-friendly applications while constantly exploring new technologies.
           </p>
           <div className="mt-6">
             <Button asChild variant="secondary">

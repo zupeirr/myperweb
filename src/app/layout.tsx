@@ -3,6 +3,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 import { ThemeProvider } from '@/components/theme-provider';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+
 export const metadata: Metadata = {
   title: 'Suber Sulub | Creative Full-Stack Developer',
   description: 'A personal portfolio for showcasing projects and skills.',
