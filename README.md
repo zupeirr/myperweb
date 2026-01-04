@@ -1,4 +1,4 @@
-MyPortfolio Website
+My Portfolio Website
 ## 🛠 Tech Stack
 
 - [Next.js 13+](https://nextjs.org/)
