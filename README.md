@@ -1,5 +1,5 @@
 My Portfolio Website
-## 🛠 Tech Stack
+## 🛠 Tech Stack 
 
 - [Next.js 13+](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
